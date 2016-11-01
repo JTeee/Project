@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mobile Salon</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/
+  bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Poiret+One" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+<script>
+$('.smooth').on('click', function() {
+    $.smoothScroll({
+        scrollElement: $('body'),
+        scrollTarget: '#' + this.id
+    });
+    
+    return false;
+});
+</script>
+
+</head>
+  <body>
+
+  <div id="nav">
+      <ul id= navigation>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li> 
+      </ul>
+    </div>
+
+<div class="jumbotron" >
+   <div id="page1">
+      <a id="about" class="smooth"></a>
+      <h1 style="color:#fff;">Mobile Salon</h1>
+      <h2>Convinience</h2>
+      <h2>Personalised Service</h2>
+      <h2>Where ever you are</h2>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+  	<div id="page2">
+  	<a id="services" class="smooth"></a>
+    <div class="row">
+    <div class="col-md-4">
+    <img src="http://tashansmith.com/wp-content/uploads/sites/10/2015/03/lip-icon.png" style= "width:35%"/>
+    <h3>Services We Offer</h3>
+    <ul>
+      <li>Manicure</li>
+      <li>Pedicure</li>
+      <li>A rage of Massages</li>
+      <li>Makeup for any occasion</li>
+      <li>Brading and Styling</li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+    <img src="http://tashansmith.com/wp-content/uploads/sites/10/2015/03/hair-icon.png" style="width:35%"/>
+    <h3>Benefits of our Services</h3>
+    <ul>
+      <li>We are always at your doorstep</li>
+      <li>At the comfort of your home</li>
+      <li>Ready to start, when you are</li>
+    </ul>
+    </div>
+    <div class="col-md-4">
+    <img src="http://tashansmith.com/wp-content/uploads/sites/10/2015/03/makeup-icon.png" style="width:35%"/>
+    <h3>Why Us </h3>
+    <ul>
+      <li>Professional</li>
+      <li>Experienced</li>
+      <li>Creative</li>
+      <li>No limits</li>
+      <li>Unique</li>
+    </ul>
+  </div>
+</div>
+</div>
+</div>
+  <div class="footer">
+  <div id="page3"> 
+  <a id="contact" class="smooth"></a>
+  <div class="row">
+  <div class="col-md-4">
+  <p style="font-size:18px">&copy 2016 Mobile Salon</p>
+  </div>
+  <div class="col-md-4">
+  <h4>Social Media</h4>
+  <img src="http://simpleicon.com/wp-content/uploads/facebook-2.png" style="width:10%"/>
+  <img src="https://5a5a57ff32a328601212-ee0df397c56b146e91fe14be42fa361d.ssl.cf1.rackcdn.com/icon/instagram_logos_glyph/03H5cHNMt-Jni4pe9u+7/glyph-logo_May2016_200.png" style="width:10%"/>
+  <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_black-512.png" style="width:10%"/>
+  </div>
+  <div class="col-md-4">
+  <h4>Address</h4>
+  <p>39 Olivier Street, Willow Park, 3456</p>
+  </div>
+  </div>
+  </div>
+</div>
+</body>
+</html>

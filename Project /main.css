@@ -1,0 +1,121 @@
+/** fonts **/
+ h1,h2 {
+	text-align: center;
+	color: #fff;
+	font-family: 'Poiret One', cursive; 
+}
+
+
+h3 {
+	color: #fff;
+	font-family: 'Poiret One', cursive; 
+	
+	}
+
+h4{ color:#000;
+	font-family: 'Poiret One', cursive; 
+	font-weight: bold;
+
+
+}
+
+li  {font-family:'Amatic SC', cursive;
+	font-size: 25px;
+	list-style: none;
+
+}
+
+
+
+/** Jumbotron **/
+.jumbotron {
+	height: 450px;
+	margin-bottom: 0px;
+	background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/Q2GCW1CLS5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+
+}
+/** Images **/
+img {
+	margin-top: 60px;
+
+}
+
+ .footer img {
+	display: inline;
+	margin-top: 19px;
+}
+
+/** Navigation **/
+
+ #navigation li { 
+	display: inline-block;
+	padding: 5px;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Poiret One', cursive;
+}
+
+#navigation {
+	padding-top: 30px;
+	
+}
+
+#nav{
+ 	background-color: #e25879;
+	margin-top: -30px;
+	padding: 7px;
+
+}
+ 
+/** hover **/
+
+ a:hover { 
+ 	background-color: grey;
+ 	text-decoration: none;
+
+ }
+
+ a:visited{ 
+ 	color:#fff;
+
+
+ }
+
+ a:link {
+ 	color:#fff;
+ }
+
+ h3:hover{ 
+ 	color:#e25879 ;
+
+ }
+
+ li:hover{ 
+ 	color:#fff;
+
+ }
+
+
+
+/** body **/
+
+.container-fluid {
+	background-color: grey;
+	height: 500px;
+}
+
+
+/** footer **/
+ .footer p {
+		padding-top: 30px;
+		font-family: 'Amatic SC', cursive;
+		font-size: 22px;
+	}
+
+	.footer { background-color: #e25879;
+			height: 150px;
+
+	}
